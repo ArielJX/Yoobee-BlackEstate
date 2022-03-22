@@ -1,0 +1,105 @@
+/*----------------- variables -----------------*/
+@import './variables.scss';
+
+
+/*---------------header and footer-------------*/
+@import './header&footer';
+
+
+//main
+
+main a {
+  padding-bottom: 0.01em;
+  border-bottom: 1px solid $primary-color;
+  color: $primary-color;
+}
+
+.home__title {
+  background-color: rgba($teriary-color, 0.55);
+  padding: 2em;
+  margin: 4em;
+  color: $primary-color;
+    & h1 {
+      font-size: 1.8em;
+      margin-bottom: 1em;
+    }
+    & h2 {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+}
+
+.home__hero {
+  background-image: url("./imgs/home__hero-bg.jpg");
+}
+
+.mobile-visible {
+  display: none;
+}
+
+.home__shop {
+  background-image: url("./imgs/home__shop-bg.jpg");
+}
+
+.home__food {
+  background-image: url("./imgs/home__food-bg.jpg");
+}
+
+.home__land {
+  background-image: url("./imgs/home__land-bg.jpg");
+  background-position: left;
+}
+
+.home__people {
+  background-image: url("./imgs/home__people-bg.jpg");
+}
+
+// people
+
+.page__title {
+  width: 70%;
+  max-width: 980px;
+  margin: 4em auto;
+  
+  & h3 {
+    letter-spacing: 0.4px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  & h1 {
+    text-align: center;
+  }
+}
+
+.article__words-bg, .article__words>p {
+  height: 30vh;
+  max-height: 280px;
+}
+
+.page__hero {
+  background-image: url("./imgs/page__hero-bg.jpg");
+  background-position: center 80%;
+}
+
+.award__hero {
+  background-image: url("./imgs/award__hero-bg.jpg");
+  background-position: center 80%;
+}
+
+.article-family {
+  background-image: url("./imgs/article-family.jpg");
+}
+
+.article1 {
+  background-image: url("./imgs/article1.jpg");
+}
+
+.article2 {
+  background-image: url("./imgs/article2.jpg");
+}
+
+.article3 {
+  background-image: url("./imgs/home__food-bg.jpg");
+}
+/*------------------ media query ------------------*/
+@import './media-query.scss'

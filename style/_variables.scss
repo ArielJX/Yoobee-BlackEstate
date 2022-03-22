@@ -1,0 +1,70 @@
+$primary-color: #ffffff;
+$secondary-color: #d7eade;
+$third-color: #bdcddb;
+$teriary-color: #202030;
+$teriary-color-hover: #9b8ca3;
+
+$box-shadow: 0 0.5rem 1rem rgba($teriary-color, 0.15);
+
+html,
+body,
+h1,h2,
+a, ul, li {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html,
+body {
+  background-color: $primary-color;
+  min-width: 320px;
+}
+
+a, ul, li {
+  color: $teriary-color;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+a:hover, strong:hover {
+  color: $teriary-color-hover;
+  cursor: pointer;
+}
+
+
+main, .container-fluid, footer>div {
+  margin: auto 4em;
+}
+
+.full-screen {
+  height: 90vh !important;
+  margin-bottom: 2em;
+}
+
+.half-screen {
+  height: 50vh !important;
+  margin-bottom: 2em;
+}
+
+.large-screen {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.bg-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+
